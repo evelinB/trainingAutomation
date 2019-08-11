@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My test suite">
+    <listeners>
+        <listener class-name="com.automation.training.MyCoolListener"/>
+    </listeners>
+    <parameter name="stringA" value="I love "/>
+    <parameter name="stringB" value="test automation"/>
+    <test name="My first test">
+        <classes>
+            <class name="com.automation.training.AnnotationTest"/>
+        </classes>
+
+    </test>
+</suite>
